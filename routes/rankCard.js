@@ -1,10 +1,10 @@
 const { join } = require('path')
 const Canvas = require('canvas')
 const { registerFont } = require('canvas')
-registerFont(join(__dirname, '../../public/fonts', 'tasty_donuts.otf'), {
+registerFont(join(__dirname, '../views/fonts', 'tasty_donuts.otf'), {
 	family: 'Poppins-Regular'
 })
-registerFont(join(__dirname, '../../public/fonts', 'tasty_donuts.otf'), {
+registerFont(join(__dirname, '../views/fonts', 'tasty_donuts.otf'), {
 	family: 'Poppins-Bold'
 })
 
